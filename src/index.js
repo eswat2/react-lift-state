@@ -16,8 +16,17 @@ const AwesomeIcon = styled(FontAwesomeIcon)`
   margin-left: 10px;
 `;
 
+const Label = styled.span`
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: regular;
+  font-style: italic;
+  color: #aaaaaa;
+`
+
 const refreshData = () => {
-  const ids = chance.unique(chance.integer, 30, { min: 0, max: 100 });
+  const count = chance.integer({ min: 20, max: 40 })
+  const ids = chance.unique(chance.integer, count, { min: 0, max: 100 });
   const data = ids.map(id => {
     return { id: id, name: faker.company.companyName() };
   });
@@ -46,8 +55,14 @@ function App() {
           rotation={archive ? 0 : 180}
           size="lg"
           onClick={handleToggle}
+          title="Toggle Implementation"
         />
-        <AwesomeIcon icon={faSyncAlt} onClick={handleRefresh} />
+        <AwesomeIcon 
+          icon={faSyncAlt} 
+          onClick={handleRefresh} 
+          title="Refresh Data"
+        />
+        <Label>{list.length} items</Label>
       </h3>
       <SearchableList list={list} />
     </div>

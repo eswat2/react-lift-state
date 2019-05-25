@@ -38,7 +38,11 @@ const SearchableList = ({ className, list }) => {
       <List list={filteredList} />
       <Footer>
         Archive in a List example - see{" "}
-        <a href="https://www.robinwieruch.de/react-lift-state/" target="_blank" rel="noopener noreferrer">
+        <a 
+          href="https://www.robinwieruch.de/react-lift-state/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
           React Lift State
         </a>{" "}
         for more detail...
