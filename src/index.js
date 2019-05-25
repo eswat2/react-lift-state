@@ -24,8 +24,7 @@ const Label = styled.span`
   color: #aaaaaa;
 `
 
-const refreshData = () => {
-  const count = chance.integer({ min: 20, max: 40 })
+const refreshData = (count) => {
   const ids = chance.unique(chance.integer, count, { min: 0, max: 100 });
   const data = ids.map(id => {
     return { id: id, name: faker.company.companyName() };
@@ -33,15 +32,18 @@ const refreshData = () => {
   return data;
 };
 
+const defaultList = refreshData(15)
+
 // NOTE:  add toggle to be able to switch between the 2 styles
 function App() {
   const [archive, setArchive] = React.useState(false);
-  const [list, setList] = React.useState(refreshData());
+  const [list, setList] = React.useState(defaultList);
   const handleToggle = () => {
     setArchive(!archive);
   };
   const handleRefresh = () => {
-    const data = refreshData();
+    const count = chance.integer({ min: 20, max: 40 })
+    const data = refreshData(count);
     setList(data);
   };
   let SearchableList = archive ? ArchiveInAList : SearchInAList;
