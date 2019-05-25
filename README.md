@@ -23,7 +23,7 @@ What did i use to build this?
 - react-scripts
 - [styled-components][styled-eh]
     
-There are 2 examples in Robin's article, you can see how they differ visually here _(just click the toggle element in the header to switch between them)_:
+There are 2 examples in Robin's article, you can see how they differ visually here:
 
 1. Snapshot:  _Search In A List_
 ![search][img-search]
