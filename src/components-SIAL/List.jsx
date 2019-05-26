@@ -1,18 +1,26 @@
 import React from "react";
 import styled from "styled-components";
 
-const Label = styled.span`
+// NOTE:  styled to match the other implementation...
+const Row = styled.li`
   color: #aaaaaa;
+  display: flex;
+  flex-direction: row;
+  height: 23px;
 `;
 
-const List = ({ list }) => (
-  <ul>
+const Container = styled.ul`
+  padding-inline-start: 20px;
+`
+
+const List = ({ className, list }) => (
+  <Container className={className}>
     {list.map(item => (
-      <li key={item.id}>
-        <Label>{item.name}</Label>
-      </li>
+      <Row key={item.id}>
+        {item.name}
+      </Row>
     ))}
-  </ul>
+  </Container>
 );
 
 export { List };

@@ -22,6 +22,7 @@ const Row = styled.div`
   font-weight: bold;
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
   width: 80%;
 `;

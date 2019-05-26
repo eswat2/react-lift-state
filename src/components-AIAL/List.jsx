@@ -1,12 +1,17 @@
 import React from "react";
 import styled from "styled-components";
 
-const Row = styled.div`
+// NOTE:  simplify the layout by using a styled.li for the Row
+const Row = styled.li`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 80%;
 `;
+
+const Container = styled.ul`
+  padding-inline-start: 20px;
+`
 
 const Label = styled.span`
   color: #aaaaaa;
@@ -44,18 +49,16 @@ const List = ({ className, list }) => {
 
   return (
     <React.Fragment>
-      <ul className={className}>
+      <Container className={className}>
         {list.filter(byArchived(archivedItems)).map(item => (
-          <li key={item.id}>
-            <Row>
-              <Label>{item.name}</Label>
-              <Button type="button" onClick={() => handleArchive(item.id)}>
-                Archive
-              </Button>
-            </Row>
-          </li>
+          <Row key={item.id}>
+            <Label>{item.name}</Label>
+            <Button type="button" onClick={() => handleArchive(item.id)}>
+              Archive
+            </Button>
+          </Row>
         ))}
-      </ul>
+      </Container>
       <ArchivedLabel>
         {archivedItems.length} item{archivedItems.length === 1 ? "" : "s"}{" "}
         archived...
