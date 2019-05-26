@@ -1,11 +1,11 @@
 # react-lift-state
 
-I wrote this on CodeSandbox after reading Robin's article.  Making it available as a GitHub repo...
+I wrote this on CodeSandbox after reading Robin's article.  Making it available as a GitHub repo & deployment...
 
 - [Robin Wieruch][rw-about]
 - [article][rw-article] - React Lift State Up & Down
 - [codesandbox][code-sandbox]
-- [github page][github-page]
+- [github page][github-page] - deployed
 
 How do i use this?
 
@@ -24,6 +24,10 @@ What did i use to build this?
 - react-scripts
 - [styled-components][styled-eh]
 - **NOTE**:  _the color values are from [clrs.cc][clrs-cc]_
+
+How did i deploy this?
+
+- _[Deploying a React App to GitHub Pages][react-gh-pages]_
     
 There are 2 examples in Robin's article, you can see how they differ visually here:
 
@@ -40,8 +44,8 @@ There are 2 examples in Robin's article, you can see how they differ visually he
 
 
 
-[img-archive]: images/ArchiveInList.png
-[img-search]: images/SearchInList.png
+[img-archive]: images/IMG_4283.PNG
+[img-search]: images/IMG_4282.PNG
 [rw-about]: https://www.robinwieruch.de/about/
 [rw-article]: https://www.robinwieruch.de/react-lift-state/
 [code-sandbox]: https://codesandbox.io/s/react-lift-state-up-down-7g7ym
@@ -53,4 +57,5 @@ There are 2 examples in Robin's article, you can see how they differ visually he
 [fa-solid]: https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons
 [fa-react]: https://github.com/FortAwesome/react-fontawesome
 [styled-eh]: https://www.styled-components.com/
+[react-gh-pages]: https://github.com/gitname/react-gh-pages
 [clrs-cc]: https://clrs.cc/
