@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.7014bd23.chunk.css",
+    "main.js": "/react-gh-pages/static/js/main.acb5ecf8.chunk.js",
+    "main.js.map": "/react-gh-pages/static/js/main.acb5ecf8.chunk.js.map",
+    "runtime~main.js": "/react-gh-pages/static/js/runtime~main.ac2d5040.js",
+    "runtime~main.js.map": "/react-gh-pages/static/js/runtime~main.ac2d5040.js.map",
+    "static/js/2.d82182ac.chunk.js": "/react-gh-pages/static/js/2.d82182ac.chunk.js",
+    "static/js/2.d82182ac.chunk.js.map": "/react-gh-pages/static/js/2.d82182ac.chunk.js.map",
+    "index.html": "/react-gh-pages/index.html",
+    "precache-manifest.472151da21e7f61c9357b9e9b866a6c7.js": "/react-gh-pages/precache-manifest.472151da21e7f61c9357b9e9b866a6c7.js",
+    "service-worker.js": "/react-gh-pages/service-worker.js",
+    "static/css/main.7014bd23.chunk.css.map": "/react-gh-pages/static/css/main.7014bd23.chunk.css.map"
+  }
+}
