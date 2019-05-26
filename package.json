@@ -4,6 +4,7 @@
   "description": "https://www.robinwieruch.de/react-lift-state/",
   "keywords": [],
   "main": "src/index.js",
+  "homepage": "http://eswat2.github.io/react-lift-state",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.18",
     "@fortawesome/free-solid-svg-icons": "5.8.2",
@@ -16,13 +17,16 @@
     "styled-components": "4.2.0"
   },
   "devDependencies": {
+    "gh-pages": "2.0.1",
     "typescript": "3.4.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",

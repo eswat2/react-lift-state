@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { List, Search } from "./";
 
 const StyledHr = styled.hr`
-  margin-right: 15%;
+
 `;
 
 const StyledSearch = styled(Search)`
