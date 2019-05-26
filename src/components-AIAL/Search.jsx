@@ -30,9 +30,9 @@ const Wrapper = styled.span`
   margin-left: 20px;
 `
 
-const Search = ({ query, handleQuery, className, children }) => (
+const Search = ({ query, handleQuery, className, label }) => (
   <Row className={className}>
-    <Wrapper>{children}</Wrapper>
+    <Wrapper>{label}</Wrapper>
     <Input type="text" value={query} onChange={handleQuery} />
     <Button
       onClick={() => {

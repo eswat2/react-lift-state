@@ -10,6 +10,12 @@ import "./styles.css";
 import { SearchableList as ArchiveInAList } from "./components-AIAL";
 import { SearchableList as SearchInAList } from "./components-SIAL";
 
+const MIN_ID = 0
+const MAX_ID = 400
+
+const MIN_COUNT = 15
+const MAX_COUNT = 40
+
 const chance = Chance();
 
 const AwesomeIcon = styled(FontAwesomeIcon)`
@@ -25,14 +31,14 @@ const Label = styled.span`
 `
 
 const refreshData = (count) => {
-  const ids = chance.unique(chance.integer, count, { min: 0, max: 100 });
+  const ids = chance.unique(chance.integer, count, { min: MIN_ID, max: MAX_ID });
   const data = ids.map(id => {
     return { id: id, name: faker.company.companyName() };
   });
   return data;
 };
 
-const defaultList = refreshData(15)
+const defaultList = refreshData(MIN_COUNT)
 
 // NOTE:  add toggle to be able to switch between the 2 styles
 function App() {
@@ -42,7 +48,7 @@ function App() {
     setArchive(!archive);
   };
   const handleRefresh = () => {
-    const count = chance.integer({ min: 20, max: 40 })
+    const count = chance.integer({ min: MIN_COUNT, max: MAX_COUNT })
     const data = refreshData(count);
     setList(data);
   };
@@ -50,7 +56,7 @@ function App() {
   return (
     <div className="App">
       <h3>
-        React Lift State Up & Down{" "}
+        React Lift State{" "}
         <AwesomeIcon
           color={archive ? "#2ECC40" : "#111111"}
           icon={faToggleOn}

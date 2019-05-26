@@ -23,9 +23,7 @@ const SearchableList = ({ className, list }) => {
 
   return (
     <div className={className}>
-      <Search query={query} handleQuery={handleQuery}>
-        Search:
-      </Search>
+      <Search query={query} handleQuery={handleQuery} label="Search:" />
       <hr />
       <List list={filteredList} />
       <Footer>

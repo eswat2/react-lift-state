@@ -30,9 +30,9 @@ const Row = styled.div`
   width: 100%;
 `;
 
-const Search = ({ className, query, handleQuery, children }) => (
+const Search = ({ className, query, handleQuery, label }) => (
   <Row className={className}>
-    <Wrapper>{children}</Wrapper>
+    <Wrapper>{label}</Wrapper>
     <Input type="text" value={query} onChange={handleQuery} />
     <Button
       onClick={() => {
