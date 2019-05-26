@@ -2,14 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { List, Search } from "./";
 
-const StyledHr = styled.hr`
-  margin-right: 15%;
-`;
-
-const StyledSearch = styled(Search)`
-  margin-left: 20px;
-`;
-
 const Footer = styled.footer`
   margin-top: 20px;
   color: #001f3f;
@@ -31,10 +23,10 @@ const SearchableList = ({ className, list }) => {
 
   return (
     <div className={className}>
-      <StyledSearch query={query} handleQuery={handleQuery}>
+      <Search query={query} handleQuery={handleQuery}>
         Search List:
-      </StyledSearch>
-      <StyledHr />
+      </Search>
+      <hr />
       <List list={filteredList} />
       <Footer>
         Archive in a List example - see{" "}

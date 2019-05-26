@@ -6,7 +6,7 @@ const Row = styled.li`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
 `;
 
 const Container = styled.ul`
