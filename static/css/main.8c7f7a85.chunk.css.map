@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,KACE,sBAAuB,CACvB,eAAgB,CAChB,eACF","file":"main.8c7f7a85.chunk.css","sourcesContent":[".App {\n  font-family: sans-serif;\n  text-align: left;\n  max-width: 480px;\n}\n"]}
