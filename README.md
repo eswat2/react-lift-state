@@ -23,6 +23,7 @@ What did i use to build this?
 - react-dom
 - react-scripts
 - [styled-components][styled-eh]
+- **NOTE**:  _the color values are from [clrs.cc][clrs-cc]_
     
 There are 2 examples in Robin's article, you can see how they differ visually here:
 
@@ -52,3 +53,4 @@ There are 2 examples in Robin's article, you can see how they differ visually he
 [fa-solid]: https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons
 [fa-react]: https://github.com/FortAwesome/react-fontawesome
 [styled-eh]: https://www.styled-components.com/
+[clrs-cc]: https://clrs.cc/
