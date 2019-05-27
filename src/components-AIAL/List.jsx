@@ -14,7 +14,7 @@ const Container = styled.ul`
 `
 
 const Label = styled.span`
-  color: #aaaaaa;
+  color: #001f3f;
 `;
 
 const Button = styled.button`

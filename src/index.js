@@ -22,6 +22,10 @@ const AwesomeIcon = styled(FontAwesomeIcon)`
   margin-left: 10px;
 `;
 
+const Header = styled.h3`
+  color: #001f3f;
+`
+
 const Label = styled.span`
   margin-left: 10px;
   font-size: 12px;
@@ -55,10 +59,10 @@ function App() {
   let SearchableList = archive ? ArchiveInAList : SearchInAList;
   return (
     <div className="App">
-      <h3>
+      <Header>
         React Lift State{" "}
         <AwesomeIcon
-          color={archive ? "#2ECC40" : "#111111"}
+          color={archive ? "#2ECC40" : "#001f3f"}
           icon={faToggleOn}
           rotation={archive ? undefined : 180}
           size="lg"
@@ -71,7 +75,7 @@ function App() {
           title="Refresh Data"
         />
         <Label>{list.length} items</Label>
-      </h3>
+      </Header>
       <SearchableList list={list} />
     </div>
   );

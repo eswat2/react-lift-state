@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 // NOTE:  styled to match the other implementation...
 const Row = styled.li`
-  color: #aaaaaa;
+  color: #001f3f;
   display: flex;
   flex-direction: row;
   height: 23px;
