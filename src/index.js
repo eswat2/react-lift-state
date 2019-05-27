@@ -60,7 +60,7 @@ function App() {
         <AwesomeIcon
           color={archive ? "#2ECC40" : "#111111"}
           icon={faToggleOn}
-          rotation={archive ? 0 : 180}
+          rotation={archive ? undefined : 180}
           size="lg"
           onClick={handleToggle}
           title="Toggle Implementation"
