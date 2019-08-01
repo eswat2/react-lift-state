@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4528fb35534b545730489d19ae7b993f",
+    "revision": "49d068c5b938051fed77741c0f51457f",
     "url": "/react-lift-state/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-lift-state/static/css/main.8c7f7a85.chunk.css"
   },
   {
-    "revision": "4894a0e71950cb05f290",
-    "url": "/react-lift-state/static/js/2.60d5e6cf.chunk.js"
+    "revision": "8adba7adce12eca02baa",
+    "url": "/react-lift-state/static/js/2.a8e503ca.chunk.js"
   },
   {
     "revision": "1201dfa25b8143a6247a",
