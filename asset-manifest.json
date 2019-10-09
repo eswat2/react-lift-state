@@ -5,16 +5,16 @@
     "main.js.map": "/react-lift-state/static/js/main.75013c5b.chunk.js.map",
     "runtime-main.js": "/react-lift-state/static/js/runtime-main.1494e67e.js",
     "runtime-main.js.map": "/react-lift-state/static/js/runtime-main.1494e67e.js.map",
-    "static/js/2.71c6cc7b.chunk.js": "/react-lift-state/static/js/2.71c6cc7b.chunk.js",
-    "static/js/2.71c6cc7b.chunk.js.map": "/react-lift-state/static/js/2.71c6cc7b.chunk.js.map",
+    "static/js/2.8579832d.chunk.js": "/react-lift-state/static/js/2.8579832d.chunk.js",
+    "static/js/2.8579832d.chunk.js.map": "/react-lift-state/static/js/2.8579832d.chunk.js.map",
     "index.html": "/react-lift-state/index.html",
-    "precache-manifest.91eaac09f83522285652fd650faa327f.js": "/react-lift-state/precache-manifest.91eaac09f83522285652fd650faa327f.js",
+    "precache-manifest.a3402a971320133d0739fd39850a853c.js": "/react-lift-state/precache-manifest.a3402a971320133d0739fd39850a853c.js",
     "service-worker.js": "/react-lift-state/service-worker.js",
     "static/css/main.8c7f7a85.chunk.css.map": "/react-lift-state/static/css/main.8c7f7a85.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.1494e67e.js",
-    "static/js/2.71c6cc7b.chunk.js",
+    "static/js/2.8579832d.chunk.js",
     "static/css/main.8c7f7a85.chunk.css",
     "static/js/main.75013c5b.chunk.js"
   ]
