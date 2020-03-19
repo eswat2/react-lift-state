@@ -11,8 +11,8 @@
     "@fortawesome/react-fontawesome": "0.1.9",
     "chance": "1.1.4",
     "faker": "4.1.0",
-    "react": "16.13.0",
-    "react-dom": "16.13.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "react-scripts": "3.4.0",
     "styled-components": "5.0.1"
   },
