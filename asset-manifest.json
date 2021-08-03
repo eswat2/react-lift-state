@@ -5,15 +5,15 @@
     "main.js.map": "/react-lift-state/static/js/main.6367ac05.chunk.js.map",
     "runtime-main.js": "/react-lift-state/static/js/runtime-main.18a6faca.js",
     "runtime-main.js.map": "/react-lift-state/static/js/runtime-main.18a6faca.js.map",
-    "static/js/2.94c6ce11.chunk.js": "/react-lift-state/static/js/2.94c6ce11.chunk.js",
-    "static/js/2.94c6ce11.chunk.js.map": "/react-lift-state/static/js/2.94c6ce11.chunk.js.map",
+    "static/js/2.ebdcb207.chunk.js": "/react-lift-state/static/js/2.ebdcb207.chunk.js",
+    "static/js/2.ebdcb207.chunk.js.map": "/react-lift-state/static/js/2.ebdcb207.chunk.js.map",
     "index.html": "/react-lift-state/index.html",
     "static/css/main.d049da0e.chunk.css.map": "/react-lift-state/static/css/main.d049da0e.chunk.css.map",
-    "static/js/2.94c6ce11.chunk.js.LICENSE.txt": "/react-lift-state/static/js/2.94c6ce11.chunk.js.LICENSE.txt"
+    "static/js/2.ebdcb207.chunk.js.LICENSE.txt": "/react-lift-state/static/js/2.ebdcb207.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.18a6faca.js",
-    "static/js/2.94c6ce11.chunk.js",
+    "static/js/2.ebdcb207.chunk.js",
     "static/css/main.d049da0e.chunk.css",
     "static/js/main.6367ac05.chunk.js"
   ]
