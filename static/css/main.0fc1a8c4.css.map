@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.0fc1a8c4.css","mappings":"AAAA,KACE,sBAAuB,CAEvB,eAAgB,CADhB,eAEF","sources":["styles.css"],"sourcesContent":[".App {\n  font-family: sans-serif;\n  text-align: left;\n  max-width: 480px;\n}\n"],"names":[],"sourceRoot":""}
