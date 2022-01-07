@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Chance from "chance";
-import faker from "faker";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faToggleOn, faSyncAlt } from "@fortawesome/free-solid-svg-icons";
@@ -37,7 +36,7 @@ const Label = styled.span`
 const refreshData = (count) => {
   const ids = chance.unique(chance.integer, count, { min: MIN_ID, max: MAX_ID });
   const data = ids.map(id => {
-    return { id: id, name: faker.company.companyName() };
+    return { id: id, name: chance.company() };
   });
   return data;
 };
