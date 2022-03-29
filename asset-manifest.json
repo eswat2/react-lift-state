@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-lift-state/static/css/main.0fc1a8c4.css",
-    "main.js": "/react-lift-state/static/js/main.0a8a9b46.js",
+    "main.js": "/react-lift-state/static/js/main.52079438.js",
     "index.html": "/react-lift-state/index.html",
     "main.0fc1a8c4.css.map": "/react-lift-state/static/css/main.0fc1a8c4.css.map",
-    "main.0a8a9b46.js.map": "/react-lift-state/static/js/main.0a8a9b46.js.map"
+    "main.52079438.js.map": "/react-lift-state/static/js/main.52079438.js.map"
   },
   "entrypoints": [
     "static/css/main.0fc1a8c4.css",
-    "static/js/main.0a8a9b46.js"
+    "static/js/main.52079438.js"
   ]
 }
